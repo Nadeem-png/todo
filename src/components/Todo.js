@@ -12,7 +12,7 @@ function Task({ task }) {
     );
 }
 function Todo() {
-    const [tasks, setTasks] = useState([
+    const [tasks] = useState([
         {
             title: "Grab some Pizza",
             completed: true
